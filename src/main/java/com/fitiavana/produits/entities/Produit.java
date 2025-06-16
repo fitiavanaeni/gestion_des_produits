@@ -1,4 +1,4 @@
-package com.fitiavana.entities;
+package com.fitiavana.produits.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

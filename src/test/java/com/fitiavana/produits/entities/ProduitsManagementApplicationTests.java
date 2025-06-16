@@ -1,6 +1,6 @@
-package com.fitiavana.entities;
+package com.fitiavana.produits.entities;
 
-import com.fitiavana.repositories.ProduitRepository;
+import com.fitiavana.produits.repositories.ProduitRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -35,7 +35,7 @@ class ProduitsManagementApplicationTests {
 
 	@Test
 	public void testDeleteProduit(){
-		produitRepository.deleteById(1L);
+		produitRepository.deleteById(5L);
 	}
 	@Test
 	public void testFindAllProduit(){
